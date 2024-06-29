@@ -1,0 +1,135 @@
+.overflow-hidden{
+  overflow: hidden;
+}
+[type=button]:focus, [type=submit]:focus, button:focus {
+  outline: 0px solid;
+}
+.service-slider-wrapper [type=button]:focus, .service-slider-wrapper  [type=button]:hover, .service-slider-wrapper [type=submit]:focus, .service-slider-wrapper [type=submit]:hover, .service-slider-wrapper button:focus, .service-slider-wrapper button:hover {
+  background-color: #2AAADE;
+}
+.services-wrapper .slick-arrow {
+  font-size: 0 !important;
+  width: 60px !important;
+  height: 50px !important;
+  border: 0 !important;
+  background: #E0E3EB !important;
+  border-radius: 30px !important;
+  line-height: 0 !important;
+  padding: 0 !important;
+  position: absolute !important;
+  left: 50% !important;
+  top: 0px !important;
+}
+.services-wrapper .slick-prev.slick-arrow {
+  left: 46% !important;
+  right: 72px !important;
+}
+.services-wrapper .slick-arrow:hover {
+  background: #2AAADE !important;
+}
+.services-wrapper .slick-next:before {
+  position: relative !important;
+  top: 0px !important;
+  right: 0 !important;
+  content: url("http://skyviewfamilydentistry.com/wp-content/uploads/2024/06/right-arrow.png") !important;
+}
+.services-wrapper .slick-prev:before {
+  position: relative !important;
+  top: 0 !important;
+  right: 0 !important;
+  content: url("http://skyviewfamilydentistry.com/wp-content/uploads/2024/06/left-arrow.png") !important;
+}
+.services-wrapper .slick-slider {
+  margin:0 -10px !important;
+  width: 120vw !important;
+  padding-top: 150px !important;
+}
+.services-wrapper .slick-slide {
+  padding: 0 10px !important;
+}
+.text-wrap {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+          line-clamp: 2; 
+  -webkit-box-orient: vertical;
+  margin-bottom: 15px;
+}
+.text-wrap p {
+  margin: 0;
+}
+.single-service-item img, .image-wrap {
+  height: 220px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 18px;
+  border-radius: 6px;
+  transition: all .5s ease;
+}
+.single-service-item h2 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #010C0D;
+  margin: 0 0 14px;
+}
+.image-wrap {
+  overflow: hidden;
+}
+.image-wrap:hover img {
+  transform: scale(1.1);
+}
+.single-service-item, .single-service-item a {
+  color: #808586;
+  font-size: 16px;
+  font-weight: 400;
+}
+.single-service-item a:hover{
+  color: #808586;
+}
+.single-service-item .readmore {
+  background: #2AAADE;
+  padding: 11px 24px;
+  display: inline-block;
+  color: #fff;
+  border-radius: 6px;
+}
+.single-service-item .readmore:hover {
+  background: #17477F;
+}
+
+@media (max-width: 1300px){
+  .services-wrapper .slick-slider {
+      margin: 15px !important;
+  }
+
+
+
+}
+
+@media (max-width: 1024px) {
+
+  .services-wrapper .slick-slider {
+        width: 120vw !important;
+  }
+  .services-wrapper .slick-arrow{
+    display: none !important;
+  }
+  
+
+}
+
+
+@media (max-width: 575px) {
+  .services-wrapper .slick-slider {
+      margin: 0 !important;
+      width: 160vw !important;
+  }
+  /* .single-service-item img, .image-wrap {
+      height: 240px;
+  } */
+  .single-service-item h2 {
+    font-size: 22px;
+  }
+ 
+
+}
